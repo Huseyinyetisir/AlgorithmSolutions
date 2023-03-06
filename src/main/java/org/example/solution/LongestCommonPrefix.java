@@ -19,7 +19,7 @@ package org.example.solution;
 //["flower","flow","flight"]
 
 
-public class longestCommonPrefix {
+public class LongestCommonPrefix {
     public String CommonPrefix(String[] strs){
         if (strs.length == 0) return "";
         String prefix = strs[0];  //prefix = flower

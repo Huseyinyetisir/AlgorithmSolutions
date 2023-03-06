@@ -25,7 +25,7 @@ package org.example.solution;
 //Input = LVIII
 
 import java.util.HashMap;
-public class romanToInteger {
+public class RomanToInteger {
 
     public int romanToInt(String s) {
         HashMap<String, Integer> roman = new HashMap<>();

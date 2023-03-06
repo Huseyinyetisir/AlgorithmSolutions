@@ -25,7 +25,7 @@ import java.util.Stack;
 //        Input: s = "(]"
 //        Output: false
 //
-public class validParentheses {
+public class ValidParentheses {
     public boolean isValid(String s) {
 
         if (s.length() % 2 != 0) return false;
