@@ -29,7 +29,7 @@ package org.example.solution;
  * Output: 1
  */
 public class FirstBadVersion {
-     public static boolean isBadVersion(int x){
+    public static boolean isBadVersion(int x){
         switch (x) {
             case 3:
                 return false;
@@ -50,7 +50,9 @@ public class FirstBadVersion {
             int mid = low + (high - low) / 2;
             if (isBadVersion(mid) == true && isBadVersion(mid - 1) == false)
                 return mid;
-            else if (isBadVersion(mid) == false) low = mid + 1;
+            else if (isBadVersion(mid) == false) {
+                low = mid + 1;
+            }
             else high = mid;
         }
         return -1;
