@@ -50,17 +50,15 @@ import java.util.ArrayList;
  * It does not matter what you leave beyond the returned k (hence they are underscores).
  *
  */
-
-
 public class RemoveElements {
 
     public static int removeElements(int[] nums, int val){
         int point= 0;//1-2
         for (int i = 0; i< nums.length; i++){
-         if (nums[i] != val){
-             nums[point] = nums[i];
-             point++; //[2,2]
-         }
+            if (nums[i] != val){
+                nums[point] = nums[i];
+                point++; //[2,2]
+            }
         }
         return point;
     }
@@ -70,3 +68,4 @@ public class RemoveElements {
     }
 
 }
+
