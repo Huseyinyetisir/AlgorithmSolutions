@@ -1,4 +1,4 @@
-package org.example.solution;
+package org.example.solution.random;
 
 import java.util.ArrayList;
 import java.util.Arrays;

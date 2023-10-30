@@ -1,4 +1,4 @@
-package org.example.solution;
+package org.example.solution.random;
 //Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 //
 //        Symbol       Value

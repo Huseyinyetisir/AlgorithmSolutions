@@ -1,7 +1,4 @@
-package org.example.solution;
-
-import java.util.Arrays;
-import java.util.List;
+package org.example.solution.random;
 
 public class MergeTwoSortedLists {
 

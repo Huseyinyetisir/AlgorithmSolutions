@@ -1,4 +1,4 @@
-package org.example.solution;
+package org.example.solution.random;
 
 //Write a function to find the longest common prefix string amongst an array of strings.
 //
