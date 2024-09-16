@@ -9,7 +9,6 @@ class ListNode {
         this.next = null;
     }
 }
-
 public class MiddleNodeSolution {
 
         public ListNode middleNode(ListNode head) {
@@ -25,9 +24,9 @@ public class MiddleNodeSolution {
 
         return slow;
     }
-    
 
-public static void main(String[] args) {
+
+    public static void main(String[] args) {
     // Example 1: Create a linked list [1 -> 2 -> 3 -> 4 -> 5]
     ListNode head1 = new ListNode(1);
     head1.next = new ListNode(2);
